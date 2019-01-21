@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "A A",
+        "A A"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "mcresurge:ruby"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcresurge:ruby_leggings",
+        "count": 1
+    }
+}

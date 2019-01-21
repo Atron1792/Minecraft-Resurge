@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        " A ",
+        " B "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "mcresurge:amethyst"
+        },
+       
+        "B":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcresurge:amethyst_sword",
+        "count": 1
+    }
+}

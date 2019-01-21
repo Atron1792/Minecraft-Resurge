@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "A A",
+        "   "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "mcresurge:sapphire"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcresurge:sapphire_helmet",
+        "count": 1
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        "A A",
+        "A A"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "mcresurge:amethyst"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mcresurge:amethyst_boots",
+        "count": 1
+    }
+}
