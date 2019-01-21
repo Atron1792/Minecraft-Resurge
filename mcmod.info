@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mcresurge",
+  "name": "Minecraft Resurge",
+  "description": "A rebirth of OreSpawn for 1.12.2.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Atron1792"],
+  "credits": "Thanks to TheyCallMeDanger for the inspiration and Loremaster for getting me into modding.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
