@@ -1,7 +1,6 @@
 
 //Items
 item.ruby.name=Ruby
-item.obsidian_ingot.name=Obsidian Ingot
 item.amethyst.name=Amethyst
 item.sapphire.name=Sapphire
 
@@ -55,3 +54,5 @@ item.sapphire_boots.name=Sapphire Boots
 //Food
 item.evil_apple.name=Evil Apple
 
+//Creative Tabs
+itemGroup.mcresurgeblockstab= MC Resurge Blocks
