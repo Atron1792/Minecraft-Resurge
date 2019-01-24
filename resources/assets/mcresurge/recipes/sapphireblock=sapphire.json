@@ -1,16 +1,20 @@
-{ 
-    "type": "minecraft:crafting_shapeless",
-
-    "ingredients": 
-    [
-
-    {
-      "item": "mcresurge:sapphire_block"
-    } 
+{
+    "type": "minecraft:crafting_shaped",
     
+    "pattern":
+    [
+        "A"
     ],
-
-    "result": 
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "mcresurge:sapphire_block"
+        }
+    },
+    
+    "result":
     {
         "item": "mcresurge:sapphire",
         "count": 9

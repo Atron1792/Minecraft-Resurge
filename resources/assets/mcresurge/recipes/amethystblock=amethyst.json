@@ -1,16 +1,20 @@
-{ 
-    "type": "minecraft:crafting_shapeless",
-
-    "ingredients": 
-    [
-
-    {
-      "item": "mcresurge:amethyst_block"
-    } 
+{
+    "type": "minecraft:crafting_shaped",
     
+    "pattern":
+    [
+        "A"
     ],
-
-    "result": 
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "mcresurge:amethyst_block"
+        }
+    },
+    
+    "result":
     {
         "item": "mcresurge:amethyst",
         "count": 9

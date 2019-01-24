@@ -1,16 +1,20 @@
-{ 
-    "type": "minecraft:crafting_shapeless",
-
-    "ingredients": 
-    [
-
-    {
-      "item": "mcresurge:ruby_block"
-    } 
+{
+    "type": "minecraft:crafting_shaped",
     
+    "pattern":
+    [
+        "AAA"
     ],
-
-    "result": 
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "mcresurge:ruby_block"
+        }
+    },
+    
+    "result":
     {
         "item": "mcresurge:ruby",
         "count": 9
