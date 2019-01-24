@@ -1,4 +1,4 @@
-package com.atron.mcresurge.init;
+/* package com.atron.mcresurge.init;
 
 import com.atron.mcresurge.Main;
 import com.atron.mcresurge.util.Reference;
@@ -18,3 +18,4 @@ public class EntityInit
 		EntityRegistry.registerModEntity(new ResourceLocation(Reference.MOD_ID + ":" + name), entity, name, id, Main.instance, range, 1, true, color1, color2);
 	}
 }
+*/

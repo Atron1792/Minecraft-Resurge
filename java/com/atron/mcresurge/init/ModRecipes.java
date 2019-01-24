@@ -10,8 +10,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModRecipes {
 
 	public static void init() {
-		GameRegistry.addSmelting(ModBlocks.RUBY_ORE, new ItemStack(ModItems.RUBY, 1), 1.5f);
-		GameRegistry.addSmelting(ModBlocks.AMETHYST_ORE, new ItemStack(ModItems.AMETHYST, 1), 1.5f);
-		GameRegistry.addSmelting(ModBlocks.SAPPHIRE_ORE, new ItemStack(ModItems.SAPPHIRE, 1), 1.5f);
+		GameRegistry.addSmelting(BlockInit.RUBY_ORE, new ItemStack(ItemInit.RUBY, 1), 1.5f);
+		GameRegistry.addSmelting(BlockInit.AMETHYST_ORE, new ItemStack(ItemInit.AMETHYST, 1), 1.5f);
+		GameRegistry.addSmelting(BlockInit.SAPPHIRE_ORE, new ItemStack(ItemInit.SAPPHIRE, 1), 1.5f);
 	}
 }

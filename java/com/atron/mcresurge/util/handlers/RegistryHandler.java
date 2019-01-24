@@ -1,7 +1,7 @@
 package com.atron.mcresurge.util.handlers;
 
-import com.atron.mcresurge.init.ModBlocks;
-import com.atron.mcresurge.init.ModItems;
+import com.atron.mcresurge.init.BlockInit;
+import com.atron.mcresurge.init.ItemInit;
 import com.atron.mcresurge.util.IHasModel;
 
 import net.minecraft.block.Block;
@@ -17,19 +17,19 @@ public class RegistryHandler
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event)
 	{
-		event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
+		event.getRegistry().registerAll(ItemInit.ITEMS.toArray(new Item[0]));
 	}
 	
 	@SubscribeEvent
 	public static void onBlockRegister(RegistryEvent.Register<Block> event)
 	{
-		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
+		event.getRegistry().registerAll(BlockInit.BLOCKS.toArray(new Block[0]));
 	}
 	
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event)
 	{
-		for(Item item : ModItems.ITEMS)
+		for(Item item : ItemInit.ITEMS)
 		{
 			if(item instanceof IHasModel)
 			{
@@ -37,7 +37,7 @@ public class RegistryHandler
 			}
 		}
 		
-		for(Block block : ModBlocks.BLOCKS)
+		for(Block block : BlockInit.BLOCKS)
 		{
 			if(block instanceof IHasModel)
 			{

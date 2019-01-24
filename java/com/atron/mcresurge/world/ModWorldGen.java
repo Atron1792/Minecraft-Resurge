@@ -2,7 +2,7 @@ package com.atron.mcresurge.world;
 
 import java.util.Random;
 
-import com.atron.mcresurge.init.ModBlocks;
+import com.atron.mcresurge.init.BlockInit;
 
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.math.BlockPos;
@@ -24,7 +24,7 @@ public class ModWorldGen implements IWorldGenerator {
 	
 	private void generateOverworld(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
 	{
-		generateOre(ModBlocks.RUBY_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(7) + 4, 18);
+		generateOre(BlockInit.RUBY_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(7) + 4, 18);
 	}
 	
 	private void generateOre(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chances) 

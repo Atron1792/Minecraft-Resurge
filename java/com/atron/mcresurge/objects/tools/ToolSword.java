@@ -1,21 +1,20 @@
-package com.atron.mcresurge.items;
-
-import java.util.Random;
+package com.atron.mcresurge.objects.tools;
 
 import com.atron.mcresurge.Main;
 import com.atron.mcresurge.init.ItemInit;
 import com.atron.mcresurge.util.IHasModel;
-import net.minecraft.block.state.IBlockState;
+
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemSword;
 
-public class ItemBase extends Item implements IHasModel {
+public class ToolSword extends ItemSword implements IHasModel {
 
-	public ItemBase(String name)
+	public ToolSword(String name, ToolMaterial material)
 	{
+		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(CreativeTabs.COMBAT);
 		
 		ItemInit.ITEMS.add(this);
 	}

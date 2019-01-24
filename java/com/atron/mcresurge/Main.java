@@ -2,9 +2,11 @@ package com.atron.mcresurge;
 
 import com.atron.mcresurge.init.ModRecipes;
 import com.atron.mcresurge.proxy.CommonProxy;
+import com.atron.mcresurge.tabs.MCResurgeBlocksTab;
 import com.atron.mcresurge.util.Reference;
 import com.atron.mcresurge.world.ModWorldGen;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.MobEffects;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -16,7 +18,9 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
-public class Main {
+public class Main 
+{
+	public static final CreativeTabs mcresurgeblockstab = new MCResurgeBlocksTab("mcresurgeblockstab");
 	
 	@Instance
 	public static Main instance;
@@ -25,7 +29,7 @@ public class Main {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void PreInit(FMLPreInitializationEvent event)
+	public static void preInit(FMLPreInitializationEvent event)
 	{
 		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
 	}
@@ -37,7 +41,7 @@ public class Main {
 	}
 	
 	@EventHandler
-	public static void Postinit(FMLPostInitializationEvent event)
+	public static void postinit(FMLPostInitializationEvent event)
 	{
 
 	}
